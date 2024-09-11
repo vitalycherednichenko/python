@@ -21,7 +21,6 @@ def merge_sort(array):
 
 def merge(arr1, arr2):
     l = r = 0
-
     result = []
 
     while l < len(arr1) and r < len(arr2):
