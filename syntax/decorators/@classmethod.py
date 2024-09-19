@@ -1,3 +1,6 @@
+# Transform a method into a class method.
+
+
 class Vector:
     MIN_COORD = 0
     MAX_COORD = 100
