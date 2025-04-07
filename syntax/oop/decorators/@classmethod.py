@@ -2,6 +2,8 @@
 
 
 class Vector:
+    x = 0
+    y = 0
     MIN_COORD = 0
     MAX_COORD = 100
 
@@ -10,8 +12,6 @@ class Vector:
         return cls.MIN_COORD <= arg <= cls.MAX_COORD
 
     def __init__(self, x, y):
-        self.x = self.y = 0
-
         if self.validate(x) and self.validate(y):
             self.x = x
             self.y = y
@@ -22,5 +22,5 @@ class Vector:
 
 v = Vector(10, 20)
 
-print(Vector.validate(5))
+print(Vector.validate(1))
 print(v.get_coord())

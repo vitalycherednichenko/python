@@ -11,6 +11,7 @@ def time_of_function(func):
         t2 = time.time()
         print(f'Работа заняла {t2 - t1} секунд')
         return result
+
     return wrapper
 
 
